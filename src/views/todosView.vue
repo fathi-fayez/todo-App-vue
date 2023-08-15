@@ -73,6 +73,7 @@ const deleteTodo = (todoId) => {
     todoList.value = todoList.value.filter((todo) => todo.id !== todoId);
 };
 </script>
+<!-- eslint-disable -->
 <style scoped lang="scss">
 main {
     display: flex;

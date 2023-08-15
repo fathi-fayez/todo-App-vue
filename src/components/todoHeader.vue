@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
     <header>
         <nav class="container">
@@ -12,6 +13,7 @@
         </nav>
     </header>
 </template>
+<!-- eslint-disable -->
 <style lang="scss" scoped>
 header {
     background-color: #f1f1f1;

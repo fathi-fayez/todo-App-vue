@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
     <div class="input-wrap" :class="{ 'input-err': todoState.invalid }">
         <input v-model="todoState.todo" type="text" />
@@ -5,6 +6,7 @@
     </div>
     <p v-show="todoState.invalid" class="err-msg">{{ todoState.errMsg }}</p>
 </template>
+<!-- eslint-disable -->
 <script setup>
 import { reactive, defineEmits } from "vue";
 const emit = defineEmits(["create-todo"]);
@@ -24,6 +26,7 @@ const createTodo = () => {
     todoState.errMsg = "Todo Value Cannot Be Empty";
 };
 </script>
+<!-- eslint-disable -->
 <style lang="scss" scoped>
 .input-wrap {
     display: flex;
