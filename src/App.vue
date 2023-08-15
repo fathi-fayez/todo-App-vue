@@ -6,7 +6,7 @@
 <script setup>
 import todoHeader from "@/components/todoHeader.vue";
 </script>
-
+<!-- eslint-disable -->
 <style lang="scss">
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
