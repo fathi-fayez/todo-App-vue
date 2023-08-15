@@ -3,6 +3,7 @@
     <todoHeader />
     <router-view />
 </template>
+<!-- eslint-disable -->
 <script setup>
 import todoHeader from "@/components/todoHeader.vue";
 </script>
@@ -15,6 +16,7 @@ import todoHeader from "@/components/todoHeader.vue";
     text-align: center;
     color: #2c3e50;
 }
+
 .container {
     max-width: 1100px;
     margin: 0 auto;

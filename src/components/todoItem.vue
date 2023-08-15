@@ -61,6 +61,7 @@ const prpos = defineProps({
 });
 defineEmits(["toggle-complete", "edit-todo", "update-todo", "delete-todo"]);
 </script>
+<!-- eslint-disable -->
 <style lang="scss" scoped>
 li {
     display: flex;
