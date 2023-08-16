@@ -1,4 +1,4 @@
-// <!-- eslint-disable -->
+// eslint-disable
 import { createRouter, createWebHistory } from "vue-router";
 import todosView from "@/views/todosView.vue";
 import aboutPage from "@/views/aboutPage.vue";
